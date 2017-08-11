@@ -8,7 +8,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>--SPARDHA17--</title>
+        <title> Spardha '17 | Sports Festival of IIT(BHU), Varanasi</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -39,7 +39,9 @@
   border-radius: 5px;
   border: 1px solid;
   color: #e5e5e5;
+  display: none;
 }
+
 .carousel-caption h3{
   text-transform: uppercase;
     letter-spacing: 2px;
@@ -60,22 +62,38 @@
   width: 50%;
   margin: 2%;
   /*border: 1px solid;*/
+  text-align: center;
+  padding: 5%;
+}
+.side-content h3{
+    text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #999;
+}
+.side-content p{
+    font-size: 185%;
+    letter-spacing: 2px;
+    color: #a2a2a2;
+    font-weight: 300;
 }
 .first-container{
   width: 50%;
   margin: 2%;
-  border: 1px solid;
+  border-radius: 5px;
+  /*border: 1px solid;*/
 }
 
 .second-container{
-  width: 60%;
+  width: 50%;
   margin: 2%;
-  border: 1px solid;
+  border-radius: 5px;
+  /*border: 1px solid;*/
 }
 .third-container{
-  width: 60%;
+  width: 50%;
   margin: 2%;
-  border: 1px solid;
+  border-radius: 5px;
+  /*border: 1px solid;*/
 }
 .register-div{
   z-index: 1000000;
@@ -83,6 +101,21 @@
   top: 40%;
   left: 0;
   cursor: pointer;
+}
+.wroclaw-info{
+    letter-spacing: 2px;
+    color: #999;
+}
+.wroclaw-info h2{
+text-transform: uppercase;
+}
+.wroclaw-info h3{
+
+}
+.wroclaw-info p{
+  font-size: 124%;
+      font-weight: 300;
+      letter-spacing: 1px;
 }
 </style>
     </head>
@@ -109,49 +142,6 @@
             background-attachment: fixed;
           }
         </style>
-        <!-- Navigation -->
-        <!--div>
-        <img src ="event-images/headpage.jpg" style=" width:100%;">
-        </div-->
-        <!-- <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-            <div class="container topnav">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <!-- <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand topnav" href="#">
-                        <img src="event-images/spardhalogo.png" style ="width:15% ; height: 160% ; margin-top: 2px ; margin-bottom: 5px">
-                    </a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#About">About</a>
-                        </li>
-                        <li>
-                            <a href="#Events">Events</a>
-                        </li>
-                        <li>
-                            <a href="#Gallery">Gallery</a>
-                        </li>
-                         <li>
-                            <a href="#Sponsors">Sponsors</a>
-                        </li>
-                         <li>
-                            <a href="#Organising">Organising Team</a>
-                        </li>
-
-                    </ul> -->
-                <!-- </div> -->
-                <!-- /.navbar-collapse -->
-            <!-- </div> -->
-            <!-- /.container -->
-        <!-- </nav> -->
 
 <!-- NAVBAR -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -167,18 +157,18 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav" style="float:right">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Sponsors</a></li>
-        <li><a href="#">Organising Team</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#sponsors">Sponsors</a></li>
+        <li><a href="#teams">Organising Team</a></li>
       </ul>
     </div>
   </div>
 </nav>
 <!-- /NAVBAR -->
         <!-- Header -->
-        <a name="about"></a>
+        <section>
         <div class="intro-header">
             <div class="container">
                 <div class="row">
@@ -204,6 +194,7 @@
             </div>
             <!-- /.container -->
         </div>
+      </section>
         <!-- /.intro-header -->
 
         <!-- Side Register Bar -->
@@ -220,7 +211,7 @@
         <!-- /Side Register Bar -->
 
         <!-- Page Content -->
-        <div class="whole">
+        <div class="whole" id="about">
             <div class="abt" style="color: white; background-color: 003366; font: 50px calibri; font-weight: 900; padding-top: 10px; padding-bottom: 15px;">
                 <h1><b>About Us</b></h1>
             </div>
@@ -230,15 +221,12 @@
                         <div class="paralax-image-bg"></div>
                         <div class="wroclaw-info">
                         	<h2 class="wroclaw-info-large" align="center">About Us</h2>
-                            <p class="wroclaw-info-small">
                             <h3>Why all the hype around Spardha?</h3>
-                             For starters, 2017 will witness the 33rd edition of Spardha, a festival which has grown from strength to strength ever since its inception and now has become one of the largest and most awaited sports festivals in India.</p><br><br>
-                             <p class="wroclaw-info-small">
+                             <p>For starters, 2017 will witness the 33rd edition of Spardha, a festival which has grown from strength to strength ever since its inception and now has become one of the largest and most awaited sports festivals in India.</p><br><br>
                             <h3>What makes Spardha the talk of the town?</h3>
-                             Each year thousands of participants at Spardha put their hard work to test in a vast array of sports from basketball to boxing to squash and many more. But even if this doesn’t catch your eye, the bustle of 35,000 people on the campus streets surely will. Its them who make Spardha the festival it is, when they come to cheer for their colleges in the heat or in the cold, day or night for all the four days. When that many people come and watch you play, why wouldn’t you feel like a superstar here?</p><br><br>
-                              <p class="wroclaw-info-small">
+                             <p>Each year thousands of participants at Spardha put their hard work to test in a vast array of sports from basketball to boxing to squash and many more. But even if this doesn’t catch your eye, the bustle of 35,000 people on the campus streets surely will. Its them who make Spardha the festival it is, when they come to cheer for their colleges in the heat or in the cold, day or night for all the four days. When that many people come and watch you play, why wouldn’t you feel like a superstar here?</p><br><br>
                             <h3>What makes Spardha the talk of the town?</h3>
-                             You take back things more golden than the medals themselves, memories. Here, memories are created anywhere and everywhere; when you win your race, when you simply lose your voice cheering for your team or when you have that ‘on top of the world’ feeling in a hot air balloon at sunset. We at Spardha break our backs with only one goal in mind, that when you leave us, you leave with a sack in hand, filled with memories you’ll treasure for life.</p><br>
+                             <p>You take back things more golden than the medals themselves, memories. Here, memories are created anywhere and everywhere; when you win your race, when you simply lose your voice cheering for your team or when you have that ‘on top of the world’ feeling in a hot air balloon at sunset. We at Spardha break our backs with only one goal in mind, that when you leave us, you leave with a sack in hand, filled with memories you’ll treasure for life.</p><br>
                         </div>
                     </div>
                 </div>
@@ -247,486 +235,7 @@
         </div>
         <!-- /.whole -->
         <!--KUCHH BADA AANE WAALA HAI-->
-        <div>
-            <p align="center" style="font: 55px calibri; font-weight: 900; color: #C71585; padding-top: 15px;">EVENTS</p>
-        </div>
-        <a href="event.html"><input type="button" value="MORE EVENTS" style="font: 18px calibri; font-weight: 600; background-color: #000000; color: white; width: 180px; height: 38px; float: right; margin-top: 200px; margin-bottom: -400px; margin-right: -50px;" id="rotate" /></a>
-
-
-
-        <div style="margin-left: 5%; margin-right: 10%; background-color: #ffffff; margin-top: -25px;">
-            <table width="100%">
-                <tr>
-                    <td align="center" width="33%">
-                        <img src="event-images/athletics.jpg" onclick="document.getElementById('id01').style.display='block'" style="width: 260px;"/>
-
-                    <!-- Modal Contains -->
-                    <div id="id01" class="modal">
-                        <div class="container">
-                            <p align="right"><span onclick="document.getElementById('id01').style.display='none'" id="close" title="Close">&times;</span></p>
-                            <ul id="myTab" class="nav nav-tabs">
-                                <li class="active"><a href="#1" data-toggle="tab">
-                                    <img src="event-images/rulebook.jpg" style="width: 100px; height: 100px; float: left;"/>
-                                    <p align="left" style="color: 660000; font: 32px cooper black; margin-top: 10px;">Know</p>
-                                    <p align="left" style="color: 660000; font: 32px calibri; font-weight: 600; margin-top: -10px; width: 365px;">Rules & regulations</p>
-                                </a></li>
-                                <li><a href="#2" data-toggle="tab">
-                                	<img src="event-images/halloffame.jpg" style="width: 100px; height: 100px; float: left;"/>
-                                	<p align="left" style="color: CC9933; font: 32px cooper black; margin-top: 10px;">Hall of Fame</p>
-                                	<p align="left" style="color: CC9933; font: 32px calibri; font-weight: 600; margin-top: -10px; width: 410px;">Know our past winners</p>
-                        	    </a></li>
-                                <li><a href="#3" data-toggle="tab">
-                                	<img src="event-images/queries.gif" style="width: 60px; height: 60px; float: left; margin-top: 15px;"/>
-                                	<p align="left" style="color: 009933; font: 32px cooper black; margin-top: 10px; width: 250px;">For Queries</p>
-                                	<p align="left" style="color: 009933; font: 32px calibri; font-weight: 600; margin-top: -10px;">Contact at</p>
-                                </a></li>
-                            </ul>
-
-                            <div class="tab-content" style="background-color: white; color: 003366; font: 25px calibri;">
-                                <div class="tab-pane fade in active" id="1">
-                                  </br><a href="event-rulebook/athletics.pdf" style="text-decoration: none;" download><p style="color: rgb(50,50,50); font: 40px calibri; font-weight: 600;"><span class="glyphicon glyphicon-download-alt" style="font-size: 27px"></span>Rulebook</p></a>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="2">
-                              </br><p style="color: rgb(50,50,50); font: 35px calibri; font-weight: 600;">BOYS</p>
-                        	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">(1)IITKGP</br>(2)IIT(BHU)</p>
-                        	  <p style="color: rgb(50,50,50); font: 35px calibri; font-weight: 600;">GIRLS</p>
-                        	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">(1)IITKGP</br>(2)IIT(BHU)</p>
-                            </div>
-                            <div class="tab-pane fade" id="3">
-                              </br><p style="color: rgb(50,50,50); font: 40px calibri; font-weight: 600;"><strong><span class="glyphicon glyphicon-phone" style="font-size: 27px"></span>Contacts</strong></p>
-                        	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">Sunny yadav(C) - 1234567890</p>
-                            </div>
-                            <button type="button" class="btn btn-default" onclick="document.getElementById('id01').style.display='none'" style="float: center; font: 22px calibri; font-weight: 600; background-color: 990000; color: white; width: 180px; height: 40px;">CANCEL</button>
-                        	</br></br>
-                        </div>
-                    </div>
-    <script>
-    // Get the modal
-    var modal1 = document.getElementById('id01');
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal1) {
-            modal1.style.display = "none";
-        }
-    }
-    </script>
-    <script>
-    $(document).ready(function() {
-      $('#vert').val('e\nd\ni\nt');
-    });
-
-
-    </script>
-    </td>
-    <td align="center" width="33%">
-    <img src="event-images/BADM.jpg" onclick="document.getElementById('id02').style.display='block'" style="width: 260px;"/>
-    <!--button type="button" class="btn btn-default" onclick="document.getElementById('id02').style.display='block'" style="font: 18px calibri; font-weight: 600; background-color: 990000; color: white; width: 180px; height: 38px; margin-top: -30px;">BADMINTON</button>
-
-    <!-- Modal Contains -->
-    <div id="id02" class="modal">
-    <div class="container">
-        <p align="right"><span onclick="document.getElementById('id02').style.display='none'" id="close" title="Close">&times;</span></p>
-    	<ul id="myTab" class="nav nav-tabs">
-        <li class="active"><a href="#4" data-toggle="tab">
-    	<img src="event-images/rulebook.jpg" style="width: 100px; height: 100px; float: left;"/>
-        <p align="left" style="color: 660000; font: 32px cooper black; margin-top: 10px;">Know</p>
-    	<p align="left" style="color: 660000; font: 32px calibri; font-weight: 600; margin-top: -10px; width: 365px;">Rules & regulations</p>
-    	</a></li>
-        <li><a href="#5" data-toggle="tab">
-    	<img src="event-images/halloffame.jpg" style="width: 100px; height: 100px; float: left;"/>
-    	<p align="left" style="color: CC9933; font: 32px cooper black; margin-top: 10px;">Hall of Fame</p>
-    	<p align="left" style="color: CC9933; font: 32px calibri; font-weight: 600; margin-top: -10px; width: 410px;">Know our past winners</p>
-    	</a></li>
-    	<li><a href="#6" data-toggle="tab">
-    	<img src="event-images/queries.gif" style="width: 60px; height: 60px; float: left; margin-top: 15px;"/>
-    	<p align="left" style="color: 009933; font: 32px cooper black; margin-top: 10px; width: 250px;">For Queries</p>
-    	<p align="left" style="color: 009933; font: 32px calibri; font-weight: 600; margin-top: -10px;">Contact at</p>
-    	</a></li>
-        </ul>
-        <div class="tab-content" style="background-color: white; color: 003366; font: 25px calibri;">
-        <div class="tab-pane fade in active" id="4">
-          </br><a href="event-rulebook/badminton.pdf" style="text-decoration: none;" download><p style="color: rgb(50,50,50); font: 40px calibri; font-weight: 600;"><span class="glyphicon glyphicon-download-alt" style="font-size: 27px"></span>Rulebook</p></a>
-        </div>
-        <div class="tab-pane fade" id="5">
-          </br><p style="color: rgb(50,50,50); font: 35px calibri; font-weight: 600;">BOYS</p>
-    	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">(1)IITKGP</br>(2)IIT(BHU)</p>
-    	  <p style="color: rgb(50,50,50); font: 35px calibri; font-weight: 600;">GIRLS</p>
-    	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">(1)IITKGP</br>(2)IIT(BHU)</p>
-        </div>
-        <div class="tab-pane fade" id="6">
-          </br><p style="color: rgb(50,50,50); font: 40px calibri; font-weight: 600;"><strong><span class="glyphicon glyphicon-phone" style="font-size: 27px"></span>Contacts</strong></p>
-    	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">Sunny yadav(C) - 1234567890</p>
-        </div>
-        <button type="button" class="btn btn-default" onclick="document.getElementById('id02').style.display='none'" style="float: center; font: 22px calibri; font-weight: 600; background-color: 990000; color: white; width: 180px; height: 40px;">CANCEL</button>
-    	</br></br>
-    	</div>
-    </div>
-    </div>
-
-    <script>
-    // Get the modal
-    var modal2 = document.getElementById('id02');
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal2) {
-            modal2.style.display = "none";
-        }
-    }
-    </script>
-    </td>
-    <td align="center" width="23%">
-    <img src="event-images/BASKI.jpg" style="width: 260px;"/>
-    <!--button type="button" class="btn btn-default" onclick="document.getElementById('id03').style.display='block'" style="font: 18px calibri; font-weight: 600; background-color: 990000; color: white; width: 180px; height: 38px; margin-top: -30px;">BASKETBALL</button>
-
-    <!-- Modal Contains -->
-    <div id="id03" class="modal">
-    <div class="container">
-        <p align="right"><span onclick="document.getElementById('id03').style.display='none'" id="close" title="Close">&times;</span></p>
-    	<ul id="myTab" class="nav nav-tabs">
-        <li class="active"><a href="#7" data-toggle="tab">
-    	<img src="event-images/rulebook.jpg" style="width: 100px; height: 100px; float: left;"/>
-        <p align="left" style="color: 660000; font: 32px cooper black; margin-top: 10px;">Know</p>
-    	<p align="left" style="color: 660000; font: 32px calibri; font-weight: 600; margin-top: -10px; width: 365px;">Rules & regulations</p>
-    	</a></li>
-        <li><a href="#8" data-toggle="tab">
-    	<img src="event-images/halloffame.jpg" style="width: 100px; height: 100px; float: left;"/>
-    	<p align="left" style="color: CC9933; font: 32px cooper black; margin-top: 10px;">Hall of Fame</p>
-    	<p align="left" style="color: CC9933; font: 32px calibri; font-weight: 600; margin-top: -10px; width: 410px;">Know our past winners</p>
-    	</a></li>
-    	<li><a href="#9" data-toggle="tab">
-    	<img src="event-images/queries.gif" style="width: 60px; height: 60px; float: left; margin-top: 15px;"/>
-    	<p align="left" style="color: 009933; font: 32px cooper black; margin-top: 10px; width: 250px;">For Queries</p>
-    	<p align="left" style="color: 009933; font: 32px calibri; font-weight: 600; margin-top: -10px;">Contact at</p>
-    	</a></li>
-        </ul>
-        <div class="tab-content" style="background-color: white; color: 003366; font: 25px calibri;">
-        <div class="tab-pane fade in active" id="7">
-          </br><a href="event-rulebook/basketball.pdf" style="text-decoration: none;" download><p style="color: rgb(50,50,50); font: 40px calibri; font-weight: 600;"><span class="glyphicon glyphicon-download-alt" style="font-size: 27px"></span>Rulebook</p></a>
-        </div>
-        <div class="tab-pane fade" id="8">
-          </br><p style="color: rgb(50,50,50); font: 35px calibri; font-weight: 600;">BOYS</p>
-    	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">(1)IITKGP</br>(2)IIT(BHU)</p>
-    	  <p style="color: rgb(50,50,50); font: 35px calibri; font-weight: 600;">GIRLS</p>
-    	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">(1)IITKGP</br>(2)IIT(BHU)</p>
-        </div>
-        <div class="tab-pane fade" id="9">
-          </br><p style="color: rgb(50,50,50); font: 40px calibri; font-weight: 600;"><strong><span class="glyphicon glyphicon-phone" style="font-size: 27px"></span>Contacts</strong></p>
-    	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">Sunny yadav(C) - 1234567890</p>
-        </div>
-        <button type="button" class="btn btn-default" onclick="document.getElementById('id03').style.display='none'" style="float: center; font: 22px calibri; font-weight: 600; background-color: 990000; color: white; width: 180px; height: 40px;">CANCEL</button>
-    	</br></br>
-    	</div>
-    </div>
-    </div>
-
-    <script>
-    // Get the modal
-    var modal3 = document.getElementById('id03');
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal3) {
-            modal3.style.display = "none";
-        }
-    }
-    </script>
-    </td>
-
-    <td align="center" width="23%">
-    <img src="event-images/FOOTBALL.jpg" onclick="document.getElementById('id04').style.display='block'" style="width: 260px;"/>
-    <!--button type="button" class="btn btn-default" onclick="document.getElementById('id03').style.display='block'" style="font: 18px calibri; font-weight: 600; background-color: 990000; color: white; width: 180px; height: 38px; margin-top: -30px;">BASKETBALL</button>
-
-    <!-- Modal Contains -->
-    <div id="id04" class="modal">
-    <div class="container">
-        <p align="right"><span onclick="document.getElementById('id04').style.display='none'" id="close" title="Close">&times;</span></p>
-      <ul id="myTab" class="nav nav-tabs">
-        <li class="active"><a href="#7" data-toggle="tab">
-      <img src="event-images/rulebook.jpg" style="width: 100px; height: 100px; float: left;"/>
-        <p align="left" style="color: 660000; font: 32px cooper black; margin-top: 10px;">Know</p>
-      <p align="left" style="color: 660000; font: 32px calibri; font-weight: 600; margin-top: -10px; width: 365px;">Rules & regulations</p>
-      </a></li>
-        <li><a href="#8" data-toggle="tab">
-      <img src="event-images/halloffame.jpg" style="width: 100px; height: 100px; float: left;"/>
-      <p align="left" style="color: CC9933; font: 32px cooper black; margin-top: 10px;">Hall of Fame</p>
-      <p align="left" style="color: CC9933; font: 32px calibri; font-weight: 600; margin-top: -10px; width: 410px;">Know our past winners</p>
-      </a></li>
-      <li><a href="#9" data-toggle="tab">
-      <img src="event-images/queries.gif" style="width: 60px; height: 60px; float: left; margin-top: 15px;"/>
-      <p align="left" style="color: 009933; font: 32px cooper black; margin-top: 10px; width: 250px;">For Queries</p>
-      <p align="left" style="color: 009933; font: 32px calibri; font-weight: 600; margin-top: -10px;">Contact at</p>
-      </a></li>
-        </ul>
-        <div class="tab-content" style="background-color: white; color: 003366; font: 25px calibri;">
-        <div class="tab-pane fade in active" id="7">
-          </br><a href="event-rulebook/basketball.pdf" style="text-decoration: none;" download><p style="color: rgb(50,50,50); font: 40px calibri; font-weight: 600;"><span class="glyphicon glyphicon-download-alt" style="font-size: 27px"></span>Rulebook</p></a>
-        </div>
-        <div class="tab-pane fade" id="8">
-          </br><p style="color: rgb(50,50,50); font: 35px calibri; font-weight: 600;">BOYS</p>
-        <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">(1)IITKGP</br>(2)IIT(BHU)</p>
-        <p style="color: rgb(50,50,50); font: 35px calibri; font-weight: 600;">GIRLS</p>
-        <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">(1)IITKGP</br>(2)IIT(BHU)</p>
-        </div>
-        <div class="tab-pane fade" id="9">
-          </br><p style="color: rgb(50,50,50); font: 40px calibri; font-weight: 600;"><strong><span class="glyphicon glyphicon-phone" style="font-size: 27px"></span>Contacts</strong></p>
-        <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">Sunny yadav(C) - 1234567890</p>
-        </div>
-        <button type="button" class="btn btn-default" onclick="document.getElementById('id04').style.display='none'" style="float: center; font: 22px calibri; font-weight: 600; background-color: 990000; color: white; width: 180px; height: 40px;">CANCEL</button>
-      </br></br>
-      </div>
-    </div>
-    </div>
-
-    <script>
-    // Get the modal
-    var modal3 = document.getElementById('id04');
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal3) {
-            modal3.style.display = "none";
-        }
-    }
-    </script>
-    </td>
-    </tr>
-
-    <tr>
-    <td align="center" width="33%">
-    <img src="event-images/BOXING.jpg" onclick="document.getElementById('id05').style.display='block'" style="width: 260px;"/>
-    <!--button type="button" class="btn btn-default" onclick="document.getElementById('id04').style.display='block'" style="font: 18px calibri; font-weight: 600; background-color: 990000; color: white; width: 180px; height: 38px; margin-top: -30px;">BOXING</button>
-
-    <!-- Modal Contains -->
-    <div id="id05" class="modal">
-    <div class="container">
-        <p align="right"><span onclick="document.getElementById('id05').style.display='none'" id="close" title="Close">&times;</span></p>
-    	<ul id="myTab" class="nav nav-tabs">
-        <li class="active"><a href="#10" data-toggle="tab">
-    	<img src="event-images/rulebook.jpg" style="width: 100px; height: 100px; float: left;"/>
-        <p align="left" style="color: 660000; font: 32px cooper black; margin-top: 10px;">Know</p>
-    	<p align="left" style="color: 660000; font: 32px calibri; font-weight: 600; margin-top: -10px; width: 365px;">Rules & regulations</p>
-    	</a></li>
-        <li><a href="#11" data-toggle="tab">
-    	<img src="event-images/halloffame.jpg" style="width: 100px; height: 100px; float: left;"/>
-    	<p align="left" style="color: CC9933; font: 32px cooper black; margin-top: 10px;">Hall of Fame</p>
-    	<p align="left" style="color: CC9933; font: 32px calibri; font-weight: 600; margin-top: -10px; width: 410px;">Know our past winners</p>
-    	</a></li>
-    	<li><a href="#12" data-toggle="tab">
-    	<img src="event-images/queries.gif" style="width: 60px; height: 60px; float: left; margin-top: 15px;"/>
-    	<p align="left" style="color: 009933; font: 32px cooper black; margin-top: 10px; width: 250px;">For Queries</p>
-    	<p align="left" style="color: 009933; font: 32px calibri; font-weight: 600; margin-top: -10px;">Contact at</p>
-    	</a></li>
-        </ul>
-        <div class="tab-content" style="background-color: white; color: 003366; font: 25px calibri;">
-        <div class="tab-pane fade in active" id="10">
-          </br><a href="event-rulebook/boxing.pdf" style="text-decoration: none;" download><p style="color: rgb(50,50,50); font: 40px calibri; font-weight: 600;"><span class="glyphicon glyphicon-download-alt" style="font-size: 27px"></span>Rulebook</p></a>
-        </div>
-        <div class="tab-pane fade" id="11">
-          </br><p style="color: rgb(50,50,50); font: 35px calibri; font-weight: 600;">BOYS</p>
-    	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">(1)IITKGP</br>(2)IIT(BHU)</p>
-    	  <p style="color: rgb(50,50,50); font: 35px calibri; font-weight: 600;">GIRLS</p>
-    	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">(1)IITKGP</br>(2)IIT(BHU)</p>
-        </div>
-        <div class="tab-pane fade" id="12">
-          </br><p style="color: rgb(50,50,50); font: 40px calibri; font-weight: 600;"><strong><span class="glyphicon glyphicon-phone" style="font-size: 27px"></span>Contacts</strong></p>
-    	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">Sunny yadav(C) - 1234567890</p>
-        </div>
-        <button type="button" class="btn btn-default" onclick="document.getElementById('id05').style.display='none'" style="float: center; font: 22px calibri; font-weight: 600; background-color: 990000; color: white; width: 180px; height: 40px;">CANCEL</button>
-    	</br></br>
-    	</div>
-    </div>
-    </div>
-
-    <script>
-    // Get the modal
-    var modal4 = document.getElementById('id05');
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal4) {
-            modal4.style.display = "none";
-        }
-    }
-    </script>
-    </td>
-    <td align="center" width="33%">
-    <img src="event-images/CARROM.jpg" onclick="document.getElementById('id06').style.display='block'" style="width: 260px;"/>
-    <!--button type="button" class="btn btn-default" onclick="document.getElementById('id05').style.display='block'" style="font: 18px calibri; font-weight: 600; background-color: 990000; color: white; width: 180px; height: 38px; margin-top: -30px;">CARROM</button>
-
-    <!-- Modal Contains -->
-    <div id="id06" class="modal">
-    <div class="container">
-        <p align="right"><span onclick="document.getElementById('id06').style.display='none'" id="close" title="Close">&times;</span></p>
-    	<ul id="myTab" class="nav nav-tabs">
-        <li class="active"><a href="#13" data-toggle="tab">
-    	<img src="event-images/rulebook.jpg" style="width: 100px; height: 100px; float: left;"/>
-        <p align="left" style="color: 660000; font: 32px cooper black; margin-top: 10px;">Know</p>
-    	<p align="left" style="color: 660000; font: 32px calibri; font-weight: 600; margin-top: -10px; width: 365px;">Rules & regulations</p>
-    	</a></li>
-        <li><a href="#14" data-toggle="tab">
-    	<img src="event-images/halloffame.jpg" style="width: 100px; height: 100px; float: left;"/>
-    	<p align="left" style="color: CC9933; font: 32px cooper black; margin-top: 10px;">Hall of Fame</p>
-    	<p align="left" style="color: CC9933; font: 32px calibri; font-weight: 600; margin-top: -10px; width: 410px;">Know our past winners</p>
-    	</a></li>
-    	<li><a href="#15" data-toggle="tab">
-        <img src="event-images/queries.gif" style="width: 60px; height: 60px; float: left; margin-top: 15px;"/>
-    	<p align="left" style="color: 009933; font: 32px cooper black; margin-top: 10px; width: 250px;">For Queries</p>
-    	<p align="left" style="color: 009933; font: 32px calibri; font-weight: 600; margin-top: -10px;">Contact at</p>
-    	</a></li>
-        </ul>
-        <div class="tab-content" style="background-color: white; color: 003366; font: 25px calibri;">
-        <div class="tab-pane fade in active" id="13">
-          </br><a href="event-rulebook/carrom.pdf" style="text-decoration: none;" download><p style="color: rgb(50,50,50); font: 40px calibri; font-weight: 600;"><span class="glyphicon glyphicon-download-alt" style="font-size: 27px"></span>Rulebook</p></a>
-        </div>
-        <div class="tab-pane fade" id="14">
-          </br><p style="color: rgb(50,50,50); font: 35px calibri; font-weight: 600;">BOYS</p>
-    	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">(1)IITKGP</br>(2)IIT(BHU)</p>
-    	  <p style="color: rgb(50,50,50); font: 35px calibri; font-weight: 600;">GIRLS</p>
-    	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">(1)IITKGP</br>(2)IIT(BHU)</p>
-        </div>
-        <div class="tab-pane fade" id="15">
-          </br><p style="color: rgb(50,50,50); font: 40px calibri; font-weight: 600;"><strong><span class="glyphicon glyphicon-phone" style="font-size: 27px"></span>Contacts</strong></p>
-    	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">Sunny yadav(C) - 1234567890</p>
-        </div>
-        <button type="button" class="btn btn-default" onclick="document.getElementById('id06').style.display='none'" style="float: center; font: 22px calibri; font-weight: 600; background-color: 990000; color: white; width: 180px; height: 40px;">CANCEL</button>
-    	</br></br>
-    	</div>
-    </div>
-    </div>
-
-    <script>
-    // Get the modal
-    var modal5 = document.getElementById('id06');
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal5) {
-            modal5.style.display = "none";
-        }
-    }
-    </script>
-    </td>
-    <td align="center" width="23%">
-    <img src="event-images/CHESS.jpg" onclick="document.getElementById('id07').style.display='block'" style="width: 260px;"/>
-    <!--button type="button" class="btn btn-default"  onclick="document.getElementById('id06').style.display='block'" style="font: 18px calibri; font-weight: 600; background-color: 990000; color: white; width: 180px; height: 38px; margin-top: -30px;">CHESS</button>
-
-    <!-- Modal Contains -->
-    <div id="id07" class="modal">
-    <div class="container">
-        <p align="right"><span onclick="document.getElementById('id07').style.display='none'" id="close" title="Close">&times;</span></p>
-    	<ul id="myTab" class="nav nav-tabs">
-        <li class="active"><a href="#16" data-toggle="tab">
-    	<img src="event-images/rulebook.jpg" style="width: 100px; height: 100px; float: left;"/>
-        <p align="left" style="color: 660000; font: 32px cooper black; margin-top: 10px;">Know</p>
-    	<p align="left" style="color: 660000; font: 32px calibri; font-weight: 600; margin-top: -10px; width: 365px;">Rules & regulations</p>
-    	</a></li>
-        <li><a href="#17" data-toggle="tab">
-    	<img src="event-images/halloffame.jpg" style="width: 100px; height: 100px; float: left;"/>
-    	<p align="left" style="color: CC9933; font: 32px cooper black; margin-top: 10px;">Hall of Fame</p>
-    	<p align="left" style="color: CC9933; font: 32px calibri; font-weight: 600; margin-top: -10px; width: 410px;">Know our past winners</p>
-    	</a></li>
-    	<li><a href="#18" data-toggle="tab">
-    	<img src="event-images/queries.gif" style="width: 60px; height: 60px; float: left; margin-top: 15px;"/>
-    	<p align="left" style="color: 009933; font: 32px cooper black; margin-top: 10px; width: 250px;">For Queries</p>
-    	<p align="left" style="color: 009933; font: 32px calibri; font-weight: 600; margin-top: -10px;">Contact at</p>
-    	</a></li>
-        </ul>
-        <div class="tab-content" style="background-color: white; color: 003366; font: 25px calibri;">
-        <div class="tab-pane fade in active" id="16">
-          </br><a href="event-rulebook/chess.pdf" style="text-decoration: none;" download><p style="color: rgb(50,50,50); font: 40px calibri; font-weight: 600;"><span class="glyphicon glyphicon-download-alt" style="font-size: 27px"></span>Rulebook</p></a>
-        </div>
-        <div class="tab-pane fade" id="17">
-          </br><p style="color: rgb(50,50,50); font: 35px calibri; font-weight: 600;">BOYS</p>
-    	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">(1)IITKGP</br>(2)IIT(BHU)</p>
-    	  <p style="color: rgb(50,50,50); font: 35px calibri; font-weight: 600;">GIRLS</p>
-    	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">(1)IITKGP</br>(2)IIT(BHU)</p>
-        </div>
-        <div class="tab-pane fade" id="18">
-          </br><p style="color: rgb(50,50,50); font: 40px calibri; font-weight: 600;"><strong><span class="glyphicon glyphicon-phone" style="font-size: 27px"></span>Contacts</strong></p>
-    	  <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">Sunny yadav(C) - 1234567890</p>
-        </div>
-        <button type="button" class="btn btn-default" onclick="document.getElementById('id07').style.display='none'" style="float: center; font: 22px calibri; font-weight: 600; background-color: 990000; color: white; width: 180px; height: 40px;">CANCEL</button>
-    	</br></br>
-    	</div>
-    </div>
-    </div>
-
-    <script>
-    // Get the modal
-    var modal6 = document.getElementById('id07');
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal6) {
-            modal6.style.display = "none";
-        }
-    }
-    </script>
-    </td>
-    <td align="center" width="23%">
-    <img src="event-images/CRICKET.jpg" onclick="document.getElementById('id08').style.display='block'"style="width: 260px;"/>
-    <!--button type="button" class="btn btn-default" onclick="document.getElementById('id03').style.display='block'" style="font: 18px calibri; font-weight: 600; background-color: 990000; color: white; width: 180px; height: 38px; margin-top: -30px;">BASKETBALL</button>
-
-    <!-- Modal Contains -->
-    <div id="id08" class="modal">
-    <div class="container">
-        <p align="right"><span onclick="document.getElementById('id08').style.display='none'" id="close" title="Close">&times;</span></p>
-      <ul id="myTab" class="nav nav-tabs">
-        <li class="active"><a href="#7" data-toggle="tab">
-      <img src="event-images/rulebook.jpg" style="width: 100px; height: 100px; float: left;"/>
-        <p align="left" style="color: 660000; font: 32px cooper black; margin-top: 10px;">Know</p>
-      <p align="left" style="color: 660000; font: 32px calibri; font-weight: 600; margin-top: -10px; width: 365px;">Rules & regulations</p>
-      </a></li>
-        <li><a href="#8" data-toggle="tab">
-      <img src="event-images/halloffame.jpg" style="width: 100px; height: 100px; float: left;"/>
-      <p align="left" style="color: CC9933; font: 32px cooper black; margin-top: 10px;">Hall of Fame</p>
-      <p align="left" style="color: CC9933; font: 32px calibri; font-weight: 600; margin-top: -10px; width: 410px;">Know our past winners</p>
-      </a></li>
-      <li><a href="#9" data-toggle="tab">
-      <img src="event-images/queries.gif" style="width: 60px; height: 60px; float: left; margin-top: 15px;"/>
-      <p align="left" style="color: 009933; font: 32px cooper black; margin-top: 10px; width: 250px;">For Queries</p>
-      <p align="left" style="color: 009933; font: 32px calibri; font-weight: 600; margin-top: -10px;">Contact at</p>
-      </a></li>
-        </ul>
-        <div class="tab-content" style="background-color: white; color: 003366; font: 25px calibri;">
-        <div class="tab-pane fade in active" id="7">
-          </br><a href="event-rulebook/basketball.pdf" style="text-decoration: none;" download><p style="color: rgb(50,50,50); font: 40px calibri; font-weight: 600;"><span class="glyphicon glyphicon-download-alt" style="font-size: 27px"></span>Rulebook</p></a>
-        </div>
-        <div class="tab-pane fade" id="8">
-          </br><p style="color: rgb(50,50,50); font: 35px calibri; font-weight: 600;">BOYS</p>
-        <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">(1)IITKGP</br>(2)IIT(BHU)</p>
-        <p style="color: rgb(50,50,50); font: 35px calibri; font-weight: 600;">GIRLS</p>
-        <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">(1)IITKGP</br>(2)IIT(BHU)</p>
-        </div>
-        <div class="tab-pane fade" id="9">
-          </br><p style="color: rgb(50,50,50); font: 40px calibri; font-weight: 600;"><strong><span class="glyphicon glyphicon-phone" style="font-size: 27px"></span>Contacts</strong></p>
-        <p style="color: rgb(50,50,50); font: 25px calibri; font-weight: 600;">Sunny yadav(C) - 1234567890</p>
-        </div>
-        <button type="button" class="btn btn-default" onclick="document.getElementById('id08').style.display='none'" style="float: center; font: 22px calibri; font-weight: 600; background-color: 990000; color: white; width: 180px; height: 40px;">CANCEL</button>
-      </br></br>
-      </div>
-    </div>
-    </div>
-
-    <script>
-    // Get the modal
-    var modal3 = document.getElementById('id08');
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal3) {
-            modal3.style.display = "none";
-        }
-    }
-    </script>
-    </td>
-    </tr>
-    </table>
-    </div>
-
+<!-- /Events div -->
 <!-- First slider section -->
         <div class="content-section-a">
           <!-- image slider -->
@@ -737,13 +246,23 @@
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
 
         <div class="item active">
-          <img src="img/banner-bg.jpg" alt="Los Angeles" style="width:100%;">
+          <img src="img/g1.JPG" alt="Los Angeles" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Guests:</h3>
+            <p>The people who leave a mark…
+Rolling back the years to see what the greats had to say.</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/g2.JPG" alt="Chicago" style="width:100%;">
           <div class="carousel-caption">
             <h3>Spardha 17</h3>
             <p>Lorem ipsum donor sit amet</p>
@@ -751,7 +270,7 @@
         </div>
 
         <div class="item">
-          <img src="img/dog.png" alt="Chicago" style="width:100%;">
+          <img src="img/g3.JPG" alt="New York" style="width:100%;">
           <div class="carousel-caption">
             <h3>Spardha 17</h3>
             <p>Lorem ipsum donor sit amet</p>
@@ -759,7 +278,7 @@
         </div>
 
         <div class="item">
-          <img src="img/intro-bg.jpg" alt="New York" style="width:100%;">
+          <img src="img/g5.JPG" alt="Chicago" style="width:100%;">
           <div class="carousel-caption">
             <h3>Spardha 17</h3>
             <p>Lorem ipsum donor sit amet</p>
@@ -769,11 +288,11 @@
       </div>
 
       <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="display:none;">
         <span class="glyphicon glyphicon-chevron-left"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <a class="right carousel-control" href="#myCarousel" data-slide="next" style="display:none;">
         <span class="glyphicon glyphicon-chevron-right"></span>
         <span class="sr-only">Next</span>
       </a>
@@ -781,8 +300,10 @@
     </div>
     <!-- content side -->
     <div class="side-content">
-      <h4>Lorem ipsum</h4>
-      <p>Lorem ipsum donor sit amet</p>
+      <h3>Guests:</h3>
+      <p>The people who leave a mark…<br>
+Rolling back the years to see what the greats had to say.</p>
+    </div>
     </div>
   </div>
         <!-- /.container -->
@@ -792,8 +313,10 @@
                 <div class="content-section-b">
                   <!-- second content side -->
                   <div class="side-content">
-                    <h4>Lorem ipsum</h4>
-                    <p>Lorem ipsum donor sit amet</p>
+                    <h3>Crowd and Ambience:</h3>
+                    <p>Its that time of the year again
+When no ground remains quiet, no stand remains empty
+When goals and baskets simply become excuses, to up the decibels and have some fun!</p>
                   </div>
                   <!-- image slider -->
                   <div class="container second-container">
@@ -809,7 +332,7 @@
               <div class="carousel-inner">
 
                 <div class="item active">
-                  <img src="img/banner-bg.jpg" alt="Los Angeles" style="width:100%;">
+                  <img src="img/c1.jpg" alt="Los Angeles" style="width:100%;">
                   <div class="carousel-caption">
                     <h3>Spardha 17</h3>
                     <p>Lorem ipsum donor sit amet</p>
@@ -817,7 +340,7 @@
                 </div>
 
                 <div class="item">
-                  <img src="img/dog.png" alt="Chicago" style="width:100%;">
+                  <img src="img/c2.jpg" alt="Chicago" style="width:100%;">
                   <div class="carousel-caption">
                     <h3>Spardha 17</h3>
                     <p>Lorem ipsum donor sit amet</p>
@@ -825,7 +348,7 @@
                 </div>
 
                 <div class="item">
-                  <img src="img/intro-bg.jpg" alt="New York" style="width:100%;">
+                  <img src="img/c3.jpg" alt="New York" style="width:100%;">
                   <div class="carousel-caption">
                     <h3>Spardha 17</h3>
                     <p>Lorem ipsum donor sit amet</p>
@@ -835,11 +358,11 @@
               </div>
 
               <!-- Left and right controls -->
-              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="display:none">
                 <span class="glyphicon glyphicon-chevron-left"></span>
                 <span class="sr-only">Previous</span>
               </a>
-              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <a class="right carousel-control" href="#myCarousel" data-slide="next" style="display:none">
                 <span class="glyphicon glyphicon-chevron-right"></span>
                 <span class="sr-only">Next</span>
               </a>
@@ -852,7 +375,7 @@
                 <p class="lead">The people who have our back</p> -->
 
 <!-- SPONSORS SECTION -->
-        <div class="content-section-b">
+        <div class="content-section-b" id="sponsors">
           <!-- sponsors image slider -->
           <div class="container third-container">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -861,13 +384,15 @@
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
       </ol>
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
 
         <div class="item active">
-          <img src="img/banner-bg.jpg" alt="Los Angeles" style="width:100%;">
+          <img src="img/hero.jpg" alt="Los Angeles" style="width:100%;">
           <div class="carousel-caption" style="display:none">
             <h3>Spardha 17</h3>
             <p>Lorem ipsum donor sit amet</p>
@@ -875,7 +400,7 @@
         </div>
 
         <div class="item">
-          <img src="img/dog.png" alt="Chicago" style="width:100%;">
+          <img src="img/itc.jpg" alt="Chicago" style="width:100%;">
           <div class="carousel-caption" style="display:none">
             <h3>Spardha 17</h3>
             <p>Lorem ipsum donor sit amet</p>
@@ -883,7 +408,23 @@
         </div>
 
         <div class="item">
-          <img src="img/intro-bg.jpg" alt="New York" style="width:100%;">
+          <img src="img/pepsi.jpg" style="width:100%;">
+          <div class="carousel-caption" style="display:none">
+            <h3>Spardha 17</h3>
+            <p>Lorem ipsum donor sit amet</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/pizzahut.jpg" style="width:100%;">
+          <div class="carousel-caption" style="display:none">
+            <h3>Spardha 17</h3>
+            <p>Lorem ipsum donor sit amet</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/uspolo.jpg" style="width:100%;">
           <div class="carousel-caption" style="display:none">
             <h3>Spardha 17</h3>
             <p>Lorem ipsum donor sit amet</p>
@@ -905,7 +446,7 @@
     </div>
     <!-- content side -->
     <div class="side-content">
-      <h4>Sponsors:</h4>
+      <h3>Sponsors:</h3>
       <p>The people who have our back</p>
     </div>
             <!-- /.container -->
@@ -1185,5 +726,47 @@
           <!-- Javascript files -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<!-- smooth scrolling script -->
+<!-- <script>
+$(function () {
+
+$('a[href^="#"]').click(function(event) {
+var id = $(this).attr("href");
+var offset = 20;
+var target = $(id).offset().top - offset;
+
+$('html, body').animate({scrollTop:target}, 500);
+event.preventDefault();
+});
+
+});
+</script> -->
+<!-- end smooth scrolling script -->
     </body>
 </html>
