@@ -35,13 +35,15 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../event-images/baloon.jpg) no-repeat center center;
+    background: url(../event-images/cropedbaloon.jpg) no-repeat center center;
     background-size: cover;
+    background-color: rgba(0,0,0,.3);
+    background-blend-mode: multiply;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
+    padding-top: 10%;
     padding-bottom: 20%;
 }
 
@@ -302,7 +304,7 @@ text-transform: uppercase;
 }
 .num-sec{
   height: 50vh;
-background: url(../event-images/baloon.jpg);
+background: url(../logo/goalie.jpg);
 background-size: cover;
 background-color: rgba(0,0,0,.5);
 background-blend-mode: multiply;
