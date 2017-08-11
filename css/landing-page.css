@@ -208,3 +208,124 @@ p.copyright {
 p.copyright {
     margin: 15px 0 0;
 }
+
+
+/* index page css*/
+.carousel-caption{
+  background-color: rgba(0,0,0,.3);
+  border-radius: 5px;
+  border: 1px solid;
+  color: #e5e5e5;
+  display: none;
+}
+
+.carousel-caption h3{
+  text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 120%;
+}
+.carousel-caption p{
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+.carousel-inner .item img{
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.content-section-a, .content-section-b, .content-section-c{
+  display: flex;
+  height: 50vh;
+}
+.side-content{
+  width: 50%;
+  margin: auto;
+  /*border: 1px solid;*/
+  text-align: center;
+  padding: 5%;
+}
+.side-content h3{
+    text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #999;
+}
+.side-content p{
+    font-size: 150%;
+    letter-spacing: 2px;
+    color: #a2a2a2;
+    font-weight: 300;
+}
+.first-container{
+  width: 50%;
+  margin: 2%;
+  border-radius: 5px;
+  /*border: 1px solid;*/
+}
+
+.second-container{
+  width: 50%;
+  margin: 2%;
+  border-radius: 5px;
+  /*border: 1px solid;*/
+}
+.third-container{
+  width: 50%;
+  margin: 2%;
+  border-radius: 5px;
+  /*border: 1px solid;*/
+}
+.register-div{
+  z-index: 1000000;
+  position: fixed;
+  top: 40%;
+  left: 0;
+  cursor: pointer;
+}
+.wroclaw-info{
+    letter-spacing: 2px;
+    color: #999;
+}
+.wroclaw-info h2{
+text-transform: uppercase;
+}
+.wroclaw-info h3{
+
+}
+.wroclaw-info p{
+  font-size: 124%;
+      font-weight: 300;
+      letter-spacing: 1px;
+}
+.slider-section{
+  height: 100vh;
+}
+.num-sec{
+  height: 50vh;
+background: url(../event-images/baloon.jpg);
+background-size: cover;
+background-color: rgba(0,0,0,.5);
+background-blend-mode: multiply;
+display: flex;
+justify-content: space-around;
+background-attachment: fixed;
+}
+.num-div{
+  color: white;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 2px;
+padding: 5%;
+font-size: 150%;
+font-weight: 300;
+margin: auto;
+}
+.num-div h3{
+
+}
+.num-div img{
+
+}
+.num-div p{
+
+}
