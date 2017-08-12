@@ -28,7 +28,10 @@
 	left: 0;
 	top: 0;
 	/*background: transparent url(../images/browser.png) no-repeat top left;*/
+	background-color: white;
 	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+	border: 1px solid;
+	border-radius: 5px;
 }
 .dg-wrapper a.dg-transition{
 	-webkit-transition: all 0.5s ease-in-out;
@@ -38,8 +41,10 @@
 	transition: all 0.5s ease-in-out;
 }
 .dg-wrapper a img{
+	margin: auto;
 	display: block;
 	padding: 41px 0px 0px 1px;
+	height: -webkit-fill-available;
 }
 .dg-wrapper a div{
 	font-style: italic;
