@@ -331,3 +331,33 @@ margin: auto;
 .num-div p{
 
 }
+.about-us-main{
+  display: flex;
+flex-direction: row;
+}
+.about-div{
+  width: 33.33333%;
+text-align: center;
+color: rgba(0,0,0,.6);
+border: 1px solid rgba(0,0,0,.1);
+border-radius: 5px;
+padding: 1%;
+margin: 1%;
+background-color: rgba(0,0,0,.01);
+}
+.about-div h3{
+  text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: 400;
+font-size: 70%;
+}
+.about-div p{
+  font-size: 55%;
+font-weight: 300;
+letter-spacing: 1px;
+}
+.about-head{
+  text-align: center;
+    letter-spacing: 2px;
+    color: #999;
+}
