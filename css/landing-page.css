@@ -386,6 +386,9 @@ hr{
 .list-inline>li{
   padding: 5%;
 }
+.navs-ul{
+  float: right;
+}
 @media screen and (max-width:768px){
   .about-us-main{
     flex-direction: column;
@@ -420,5 +423,14 @@ hr{
   }
   .about-head{
     font-size: 150%;
+  }
+  .intro-message{
+    padding-top: 20%;
+  }
+  #myModal{
+    width: 40%;
+  }
+  .navs-ul{
+    float: left;
   }
 }

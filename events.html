@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/thumbnail-gallery.css" rel="stylesheet">
+    <link href="css/landing-page.css" rel="stylesheet">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -34,24 +35,20 @@
 <body>
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="float:left">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <img src="logo/small-logo.png">
+        <img src="logo/spardha-small.png">
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav" style="float:right">
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li class="active"><a href="#events">Events</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#sponsors">Sponsors</a></li>
-          <li><a href="#teams">Organising Team</a></li>
+        <ul class="nav navbar-nav navs-ul">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
         </ul>
       </div>
     </div>
@@ -619,14 +616,43 @@
 
         <hr>
 
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; SPARDHA 2017</p>
-                </div>
-            </div>
-        </footer>
+        <!-- FOOTER -->
+                <footer>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-4 col-sm-6 footerleft ">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.3239763295937!2d82.98692631503495!3d25.259684835361114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e33d4b53c5a85%3A0x5e36cad9ac063d23!2sIIT+Gymkhana!5e0!3m2!1sen!2s!4v1502537110030" width="300" height="250" frameborder="0" style="border:0;border-radius:5px;" allowfullscreen>
+                        </iframe>
+                      </div>
+
+                      <div class="col-md-4 col-sm-6 footerleft">
+                        <div class="logofooter">Contact Us</div>
+                        <p><i class="fa fa-phone"></i>Registrations & Enquiry :<br> &nbsp;&nbsp;&nbsp;&nbsp;+91 9012-737-504</p>
+                        <p><i class="fa fa-phones"></i>Branding & Communications :<br> &nbsp;&nbsp;&nbsp;&nbsp;+91 7379-690-146</p>
+                        <p><i class="fa fa-phones"></i>Events :<br> &nbsp;&nbsp;&nbsp;&nbsp;+91 9456-623-801</p>
+                        <p><i class="fa fa-map-marker"></i>Spardha Office, IIT(BHU) Gymkhana</p>
+                        <p><i class="fa fa-map-markers"></i>IIT(BHU) Varanasi - 221005</p>
+                        <p><i class="fa fa-envelope"></i> convener.spardha@iitbhu.ac.in </p>
+                      </div>
+
+                      <div class="col-md-4 col-sm-6 footerleft">
+                        <div class="logofooter">Follow Us</div>
+                        <ul class="list-inline banner-social-buttons">
+                            <li>
+                                <a href="https://www.facebook.com/Spardha.IIT.BHU/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/spardha_iitbhu/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company-beta/13326821/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                            </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+        <!-- /FOOTER -->
 
     </div>
     <!-- /.container -->
