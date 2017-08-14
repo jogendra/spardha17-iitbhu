@@ -85,3 +85,14 @@
 	background-position: top right;
 	margin-left: 10px;
 }
+@media screen and (max-width:768px){
+	.dg-container{
+		overflow: hidden;
+	}
+	.dg-wrapper a{
+		width: 300px;
+	}
+	.dg-wrapper a img{
+		width: 298px;
+	}
+}
