@@ -445,5 +445,18 @@ hr{
 .main-model .mod{
   width: 33.33333%;
 margin: 2%;
-background: rgba(0,0,0,.04)
+background: rgba(0,0,0,.04);
+border: 1px solid rgba(0,0,0,.2);
+border-radius: 5px;
+padding: 1%
+}
+.main-model .mod h4{
+  text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #999;
+    font-weight: 500;
+}
+.main-model .mod p{
+
 }
