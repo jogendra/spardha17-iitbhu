@@ -458,5 +458,8 @@ padding: 1%
     font-weight: 500;
 }
 .main-model .mod p{
-
+  text-align: center;
+      color: rgba(0,0,0,.8);
+      letter-spacing: 1px;
+      font-weight: 400;
 }
