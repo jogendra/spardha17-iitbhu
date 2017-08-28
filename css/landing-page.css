@@ -434,3 +434,16 @@ hr{
     float: left;
   }
 }
+
+/* EVENTS PAGE MODEL */
+.main-model{
+  display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+.main-model .mod{
+  width: 33.33333%;
+margin: 2%;
+background: rgba(0,0,0,.04)
+}
